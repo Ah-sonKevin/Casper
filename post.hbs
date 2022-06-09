@@ -92,7 +92,7 @@ into the {body} tag of the default.hbs template --}}
 {{#if @site.members_enabled}}
 {{#unless @member}}
 {{#if access}}
-    <section class="footer-cta outer">
+    <section class="footer-cta outer"  style="margin-top:2em">
         <div class="inner">
             {{#if @custom.email_signup_text}}<h2 class="footer-cta-title">{{@custom.email_signup_text}}</h2>{{/if}}
             <a class="footer-cta-button" href="#/portal" data-portal>
@@ -108,7 +108,7 @@ into the {body} tag of the default.hbs template --}}
 {{/if}}
 
    
-    <section class="article-comments gh-canvas" style="margin-top:2em">
+    <section class="article-comments gh-canvas">
       {{!--   If you want to embed comments, this is a good place to paste your code! --}}
       <div id="graphcomment"></div>
 <script type="text/javascript">
