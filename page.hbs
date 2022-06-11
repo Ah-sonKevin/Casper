@@ -30,24 +30,7 @@ into the {body} tag of the default.hbs template --}}
                 {{#if feature_image_caption}}
                     <figcaption>{{feature_image_caption}}</figcaption>
                 {{/if}}
-                {{!-- A signup call to action is displayed here, unless viewed as a logged-in member --}}
-{{#if @site.members_enabled}}
-{{#unless @member}}
-{{#if access}}
-    <section class="footer-cta outer"  style="margin-top:2em">
-        <div class="inner">
-            {{#if @custom.email_signup_text}}<h2 class="footer-cta-title">{{@custom.email_signup_text}}</h2>{{/if}}
-            <a class="footer-cta-button" href="#/portal" data-portal>
-                <div class="footer-cta-input">Enter your email</div>
-                <span>Subscribe</span>
-            </a>
-            {{!-- ^ This looks like a form element, but it's just a link to Portal,
-            making the form validation and submission much simpler. --}}
-        </div>
-    </section>
-{{/if}}
-{{/unless}}
-{{/if}}
+
             </figure>
         {{/if}}
 
