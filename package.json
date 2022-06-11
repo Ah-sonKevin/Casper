@@ -158,7 +158,14 @@
             "email_signup_text": {
                 "type": "text",
                 "default": "Sign up for more like this.",
-                "group": "post"
+            },
+            "button_signup_text": {
+                "type": "text",
+                "default": "Sign up for more like this.",
+            },
+            "header_signup_text": {
+                "type": "text",
+                "default": "Sign up for more like this.",
             },
             "show_recent_posts_footer": {
                 "type": "boolean",
