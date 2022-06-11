@@ -163,7 +163,7 @@
                 "type": "text",
                 "default": "Sign up for more like this.",
             },
-            "header_signup_text": {
+            "field_signup_text": {
                 "type": "text",
                 "default": "Sign up for more like this.",
             },
