@@ -56,11 +56,41 @@ into the {body} tag of the default.hbs template --}}
 {{/unless}}
 {{/if}}
 
+        <div class="inner">
+            {{#if @custom.email_signup_text}}<h2 class="footer-cta-title">{{@custom.email_signup_text}}</h2>{{/if}}
+            <a class="footer-cta-button" href="#/portal" data-portal>
+                <div class="footer-cta-input">Enter your email</div>
+                <span>Subscribe</span>
+            </a>
+            {{!-- ^ This looks like a form element, but it's just a link to Portal,
+            making the form validation and submission much simpler. --}}
+        </div>
+
     <section class="gh-content gh-canvas">
         {{content}}
     </section>
+    
+            <div class="inner">
+            {{#if @custom.email_signup_text}}<h2 class="footer-cta-title">{{@custom.email_signup_text}}</h2>{{/if}}
+            <a class="footer-cta-button" href="#/portal" data-portal>
+                <div class="footer-cta-input">Enter your email</div>
+                <span>Subscribe</span>
+            </a>
+            {{!-- ^ This looks like a form element, but it's just a link to Portal,
+            making the form validation and submission much simpler. --}}
+        </div>
 
 </article>
+
+        <div class="inner">
+            {{#if @custom.email_signup_text}}<h2 class="footer-cta-title">{{@custom.email_signup_text}}</h2>{{/if}}
+            <a class="footer-cta-button" href="#/portal" data-portal>
+                <div class="footer-cta-input">Enter your email</div>
+                <span>Subscribe</span>
+            </a>
+            {{!-- ^ This looks like a form element, but it's just a link to Portal,
+            making the form validation and submission much simpler. --}}
+        </div>
 </main>
 
 {{/post}}
