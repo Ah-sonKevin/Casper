@@ -157,15 +157,15 @@
             },
             "email_signup_text": {
                 "type": "text",
-                "default": "Sign up for more like this.",
+                "default": "Sign up for more like this."
             },
             "button_signup_text": {
                 "type": "text",
-                "default": "Sign up for more like this.",
+                "default": "Sign up for more like this."
             },
             "field_signup_text": {
                 "type": "text",
-                "default": "Sign up for more like this.",
+                "default": "Sign up for more like this."
             },
             "show_recent_posts_footer": {
                 "type": "boolean",
